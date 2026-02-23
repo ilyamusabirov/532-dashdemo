@@ -5,9 +5,9 @@ app_ui = ui.page_sidebar(
         ui.input_slider("n", "Number of observations", min=1, max=100, value=50),
     ),
     ui.card(
-        ui.output_text("txt"),
+        ui.output_text("Stable build"),
     ),
-    title="Minimal Shiny App",
+    title="Minimal Shiny App - Main branch",
 )
 
 
