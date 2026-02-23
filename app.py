@@ -10,14 +10,14 @@ app_ui = ui.page_sidebar(
     ui.card(
         ui.output_text("txt"),
     ),
-    title="Minimal Shiny App - Main branch",
+    title="Minimal Shiny App - Dev branch",
 )
 
 
 def server(input, output, session):
     @render.text
     def build():
-        return f"stable version 2"
+        return f"Updated preview"
     @render.text
     def txt():
         return f"Number of observations: {input.n()}"
